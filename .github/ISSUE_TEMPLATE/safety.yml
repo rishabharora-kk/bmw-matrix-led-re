@@ -1,0 +1,15 @@
+name: Safety review / stop condition
+description: Raise bench hazards, blockers or safety-gate issues
+labels: [safety]
+body:
+  - type: textarea
+    id: danger
+    attributes:
+      label: Hazard / incomplete gate
+      description: Avoid sharing instructions to defeat protection
+    validations: {required: true}
+  - type: textarea
+    id: safe_fix
+    attributes:
+      label: Proposed containment or mitigation
+    validations: {required: true}

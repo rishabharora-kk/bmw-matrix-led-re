@@ -1,0 +1,17 @@
+# Fill locally; remove identity/security data before sharing.
+capture_id: ''
+assembly_id: ''
+source_class: 'owned-lamp-closed-bench'
+consent: false
+optical_enclosure_closed: false
+operator: 'REDACTED'
+raw_file_sha256: ''
+recorded_local_datetime: ''
+protocol: 'UNKNOWN' # classic CAN / CAN FD / LIN, verified only
+verified_bitrate: null
+verified_transceiver: ''
+listen_only_hardware_enabled: false
+lamp_mode: 'UNKNOWN'
+power_voltage_measured: null
+current_limit_measured: null
+notes: ''

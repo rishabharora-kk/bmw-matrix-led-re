@@ -1,0 +1,36 @@
+name: Research evidence
+description: Document a claim with source and a falsifiable test
+labels: [research]
+body:
+  - type: dropdown
+    id: phase
+    attributes:
+      label: Phase
+      options: ['P0: Identify & safety', 'P1: Passive capture', 'P2: Protocol', 'P3: Hardware analysis', 'P4: Controller', 'P5: Firmware', 'P6: Validation', 'P7: Release']
+    validations: {required: true}
+  - type: dropdown
+    id: confidence
+    attributes:
+      label: Evidence grade
+      options: ['Confirmed (primary)', 'Likely (secondary)', 'Speculative (hypothesis)']
+    validations: {required: true}
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Source and observation
+      description: Include original URL and date; omit VINs, private data and protected material
+    validations: {required: true}
+  - type: textarea
+    id: falsification
+    attributes:
+      label: Safe falsification / repeatability test
+    validations: {required: true}
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Scope verification
+      options:
+        - label: Bench only; no road-use or safety bypass
+          required: true
+        - label: No proprietary dumps, secrets or identifying data
+          required: true

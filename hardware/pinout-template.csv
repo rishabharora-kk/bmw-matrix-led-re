@@ -1,0 +1,2 @@
+assembly_id,connector_id,pin_number,function,voltage_when_off,voltage_at_bench_idle,wire_color,method,source_url,confidence,verified_by,verified_date,notes
+UNASSIGNED,UNKNOWN,UNKNOWN,UNKNOWN,,,,unverified,,UNKNOWN,,,DO_NOT_CONNECT_OR_POWER

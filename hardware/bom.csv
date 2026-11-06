@@ -1,0 +1,10 @@
+item,phase,qty,low_inr,high_inr,usd_low_illustrative,usd_high_illustrative,confidence,source,notes
+Non-laser used OEM lamp,P0,1,,,,,unknown,,DONOR_ASSEMBLY_NOT_PRICED_VERIFY_PART_AND_LABEL
+0-30V 10A true OCP bench PSU,P0,1,7000,15000,82,176,estimate,https://robocraze.com/,Verify actual model and overcurrent protection
+Fused breakout and mechanical E-stop,P0,1,1000,4000,12,47,estimate,,Must be installed before power
+Isolated USB-CAN capture device,P1,1,4000,15000,47,176,estimate,https://python-can.readthedocs.io/,Verify galvanic isolation and HW listen only; FD only if needed
+Logic analyzer multimeter breakout,P1,1,1500,5000,18,59,estimate,,Scope and meter quality vary
+STM32 NUCLEO-G474RE,P4,1,2600,4000,31,47,secondary_market,https://findmychips.com/product/EC-B1A10C4C,Price volatile and quoted as range
+Protected automotive CAN(-FD) transceiver + TVS,P4,1,1000,2500,12,29,estimate,https://www.st.com/resource/en/datasheet/stm32g474ve.pdf,NUCLEO has no CAN transceiver
+Carrier PCB connectors and wiring,P4,1,1000,3000,12,35,estimate,,Only after verified lamp connector
+Thermocouples optical enclosure camera accessories,P6,1,3000,20000,35,235,estimate,,Non-certified optical setup

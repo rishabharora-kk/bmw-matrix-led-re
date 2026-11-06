@@ -1,0 +1,1 @@
+capture_id,assembly_id,bus,frame_id_hex,dlc,direction_hypothesis,period_ms,min_payload,max_payload,state_correlation,byte_hypothesis,checksum_or_counter_hypothesis,confidence,confirmation_experiment,notes

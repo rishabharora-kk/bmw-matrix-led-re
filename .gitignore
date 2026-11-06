@@ -1,0 +1,22 @@
+# Private captured or proprietary materials must NEVER enter git
+*.bin
+*.dump
+*.hex
+*.s19
+*.elf
+*.key
+*.pem
+*.p12
+*.asc
+*.pcap
+*.pcapng
+captures/raw/
+captures/private/
+*.log
+!examples/synthetic_can.log
+__pycache__/
+*.pyc
+.env
+.cache/
+build/
+.DS_Store
